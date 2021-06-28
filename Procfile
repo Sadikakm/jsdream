@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicon jsproject.wsgi --log-file -
+web: gunicorn jsproject.wsgi --log-file -
